@@ -16,7 +16,7 @@ body{
 }
 
 
-div.container{
+.container{
     float: left;
     width: 540px;
     height: 446px;
@@ -43,7 +43,7 @@ h2{
 span{
     color: hsl(277, 64%, 61%);
 }
-p.text-1{
+.text-1{
     color: hsla(0, 0%, 100%, 0.6);
     padding-top: 30px;
     padding-right: 50px;
@@ -73,7 +73,7 @@ li p{
     text-transform: uppercase;
     color: hsla(0, 0%, 100%, 0.75);
 }
-div.conten{
+.conten{
     float: left;
     width: 540px;
     height: 446px;
@@ -85,7 +85,7 @@ div.conten{
     
     
 }
-div.photo{
+.photo{
     opacity: .7;
     width: 100%;
     height: 446px;
@@ -114,7 +114,7 @@ div.photo{
         
     }
     
-    div.container{
+    .container{
         height: 720px;
         width: 455px;
         border-top-left-radius: 0;
@@ -122,7 +122,7 @@ div.photo{
         border-bottom-right-radius: 7px;
         border-bottom-left-radius: 7px;
     }
-    div.photo{
+    .photo{
         background-image: url(../images/image-header-mobile.jpg);
         background-repeat: no-repeat;
         background-position-y: 0;
@@ -133,7 +133,7 @@ div.photo{
         
         
     }
-    div.conten{
+    .conten{
         clear: both;
         width: 455px;
         height: 334px;
@@ -153,7 +153,7 @@ div.photo{
         padding-bottom: 50px;
         
     }
-    p.text-1{
+    .text-1{
         padding: 0;
         margin-bottom: 30px;
         font-size: 20px;
